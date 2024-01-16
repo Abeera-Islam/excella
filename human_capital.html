@@ -1,0 +1,147 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+  <link rel='stylesheet' href='style.css' />
+  <script src="script.js" defer></script>
+  <style>
+    h2{
+        font-size: xx-large;
+    }
+    table {
+        width: 60%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #f5c542;
+    }
+
+    th, td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #fff;
+    }
+
+    th {
+        background-color: #f39c12;
+        color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9e79f;
+    }
+
+    @media  only screen and (max-device-width: 768px){
+        
+        table{
+            font-size: x-large;
+            width:fit-content;
+        }
+
+        th, td {
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        th{
+            font-size: 40px;
+        }
+        h2{
+            font-size: 60px;
+        }
+    }
+</style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="menu">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        <p class="logo"><b>Excella</b></p>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="business_model.html">Business Model</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li class="active"><a href="human_capital.html">Human Capital</a></li>
+          <li><a href="integration.html">Integration Capabilities</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <a class="cta" href="./resources/Excella.pptx"><img src="./icon/file.png" ><button>Brochure</button></a>
+    </div>
+  <div  style="background-color: black;">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 style=" color: white; text-align: center; margin-top: 90px;">
+                Human Capital
+            </h2>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: center;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>Strength</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Service</td>
+                    <td>29</td>
+                    <td>Pan India</td>
+                </tr>
+                <tr>
+                    <td>Manufacturing</td>
+                    <td>12</td>
+                    <td>In Manesar/ Noida</td>
+                </tr>
+                <tr>
+                    <td>Design , R&D</td>
+                    <td>3</td>
+                    <td>Delhi</td>
+                </tr>
+                <tr>
+                    <td>Commercial</td>
+                    <td>4</td>
+                    <td>Delhi/Ghaziabad</td>
+                </tr>
+                <tr>
+                    <td>HQ/Control</td>
+                    <td>1</td>
+                    <td>Delhi/Ghaziabad</td>
+                </tr>
+                <tr>
+                    <td>EPC & TSP Services</td>
+                    <td>11</td>
+                    <td>Pan India, Capable</td>
+                </tr>
+                <tr>
+                    <td>O&M Services</td>
+                    <td>15</td>
+                    <td>Pan India, Capable</td>
+                </tr>
+            </tbody>
+        </table>
+        
+      </div>
+  </div>
+  <hr style="color: aliceblue; height: 2px;"/>
+  <div class="footer">
+    <div class="container">
+      <ul>
+        <li>Thankyou for choosing Excella&#8482;</li>
+      </ul>
+      <p> All rights are reserved.</p>
+    </div>
+  </div>
+
+</body>
+
+</html>

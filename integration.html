@@ -1,0 +1,120 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+  <link rel='stylesheet' href='style.css' />
+  <script src="script.js" defer></script>
+  <style>
+    .row{
+      padding: 30px;
+    }
+    table {
+        width: 60%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #f5c542;
+    }
+
+    th, td {
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #fff;
+    }
+
+    th {
+        background-color: #f39c12;
+        color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9e79f;
+    }
+    h2{
+      font-size: xx-large;
+    }
+    @media only screen and (max-device-width: 768px){
+      .row{
+        margin: 80px 0px;
+      }
+      table{
+        width:95%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="menu">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <p class="logo"><b>Excella</b></p>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="business_model.html">Business Model</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="human_capital.html">Human Capital</a></li>
+        <li class="active"><a href="integration.html">Integration Capabilities</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <a class="cta" href="./resources/Excella.pptx"><img src="./icon/file.png" ><button>Brochure</button></a>
+  </div>
+  <div class="row">
+    <div class="col-md-12" style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+        <h2 style="color: white; border-top: 2px solid white;border-left: 2px solid white;border-right: 2px solid white; 
+            padding: 5px 30px; border-top-right-radius: 10px; border-top-left-radius: 10px;">
+          Combination Battery System
+        </h2>
+        <img src="./img/cbs.PNG" style="width: 50%; border-radius: 10px;">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12" style="text-align: center; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+        <table>
+            <tr>
+                <th>Lithium Ion</th>
+                <th>+</th>
+                <th>VRLA Hybrid</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./img/lfp.png">
+                    LFP Battery with BMS
+                </td>
+                <td style="font-size: xx-large; font-weight: bolder; color: #f39c12;">+</td>
+                <td>
+                    <img src="./img/vrla.png">
+                    Existing VRLA
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="font-weight: 900;">
+                    Excella is Authorized System Integrator & Service partner 
+                </td>
+            </tr>
+        </table>
+    </div>
+  </div>
+    <div style="display: flex; justify-content: center;">
+            <img src="./img/icr.PNG" style="width: 60%; border-radius: 5px;">
+    </div>
+  </div>
+  <hr style="color: aliceblue; height: 2px;"/>
+  <div class="footer">
+    <div class="container">
+      <ul>
+        <li>Thankyou for choosing Excella&#8482;</li>
+      </ul>
+      <p> All rights are reserved.</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
